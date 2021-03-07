@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>COVID-19 App</title>
+</head>
+<body>
+  <h1>COVID-19 Statistics</h1>
+  <!-- side menu to select the location to show stats from -->
+  <section class="btnMenu">
+    <div class="byDataType"></div>
+    <div class="byRegion"></div>
+    <div class="byCountry"></div>    
+  </section>
+  <!-- container to display the graph in  -->
+  <section class="displayGraph">
+    <canvas id="myChart" width="400" height="400"></canvas>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <script src="./script/index.js"></script>
+</body>
+</html>
